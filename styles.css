@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -11,6 +12,43 @@ body {
 
 .header {
     grid-column: 2 / 3;
+    padding: 10px 24px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    background-color: #E2E8F0;
+    border-radius: 12px;
+    border: none;
+    height: 28px;
+    width: calc(100% - 120px);
+}
+
+.header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    border-radius: 100%;
+}
+
+.admin-name {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .main-content {
