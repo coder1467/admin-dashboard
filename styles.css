@@ -52,6 +52,40 @@ body {
     font-size: 1.1rem;
 }
 
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header-bottom-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.header-bottom-left span {
+    font-size: 1.2rem;
+}
+
+.header-bottom-right {
+    display: flex;
+    gap: 16px;
+}
+
+.header-bottom-right button {
+    color: white;
+    background-color: #1992D4;
+    font-size: 1rem;
+    border: none;
+    width: 100px;
+    padding: 8px 0px;
+    border-radius: 20px;
+}
+
 .main-content {
     grid-column: 2 / 3;
 }
