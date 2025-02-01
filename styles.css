@@ -13,6 +13,7 @@ body {
 .header {
     grid-column: 2 / 3;
     padding: 10px 24px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .header-top {
